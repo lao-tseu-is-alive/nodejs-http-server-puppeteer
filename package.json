@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-http-server-puppeteer",
+  "version": "0.1.0",
+  "description": "A simple Node.js http server (not using express) to illustrate how to use puppeteer to print a pdf of a dynamic url of OpenStreetMap",
+  "main": "http_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node http_server.js",
+    "dev": "node --watch http_server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lao-tseu-is-alive/nodejs-http-server-puppeteer.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "headless",
+    "chrome"
+  ],
+  "author": "cgil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lao-tseu-is-alive/nodejs-http-server-puppeteer/issues"
+  },
+  "homepage": "https://github.com/lao-tseu-is-alive/nodejs-http-server-puppeteer#readme",
+  "dependencies": {
+    "puppeteer": "^21.5.2"
+  }
+}
